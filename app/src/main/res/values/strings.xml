@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Kampusku</string>
+    <string name="nama">Muhammad Rama Pradipa Wijaya</string>
+    <string name="email">ramapraipa37@gmail.com</string>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

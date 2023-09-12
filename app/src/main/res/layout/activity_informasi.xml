@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun_btn_intro1"
+    android:orientation="vertical"
+    tools:context=".Informasi">
+
+    <TextView
+        android:layout_marginTop="80px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="Aplikasi Kampusku ini dikembangkan oleh :"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/nama"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="@string/email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:text="Aplikasi Kampusku merupakan aplikasi yang digunakan uuntuk pendataan mahasiswa. User nantinya bisa menambahkan update, dan hapus data mahasiswa."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroun_btn_intro1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="186dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/polije" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Username"
+        android:textSize="17sp"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColorHint="#464646" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Kata Sandi"
+        android:textSize="17sp"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="#464646" />
+
+    <Button
+        android:id="@+id/action_login"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_orange"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/action_register"
+        style="@android:style/Widget.Button"
+        android:layout_width="183dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="Buat akun"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
